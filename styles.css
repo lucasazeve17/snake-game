@@ -1,0 +1,34 @@
+body{
+   font-family: 'Press Start 2P', cursive;
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#snake{
+    grid-area: canvas;
+    margin: 0 auto;
+}
+.menu{
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    width: 512px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+.btn-pause{
+    position: absolute;
+    font-family:'Press Start 2P', cursive;
+    right: 2px;
+    padding:12px
+}
+h1{
+    font-size: 32px;
+    grid-area: title;
+    text-align: center;
+    color: #169216;
+}
